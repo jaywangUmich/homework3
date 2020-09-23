@@ -68,12 +68,13 @@ table{
 
 td, th{
 	padding: 10px;
-	border-top: 2px;
+	border-top: 2px solid #000000;
 	vertical-align: middle;
+	text-align: center;
 }
 
 tr{
-	text-align: center;
+	
 }
 
 thead th:first-child {
@@ -99,8 +100,8 @@ tr:hover {
 }
 
 
-*{
-
+*:focus {
+    border: 3px dashed #417243;
 }
 
 thead tr:first-child th:first-child{}
